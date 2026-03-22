@@ -1,42 +1,29 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+html {
+  font-family: var(--main-font);
+}
+
 body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, p {
   margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+img {
+  width: 100%;
+  display: block;
 }
 
-picture {
-  margin: 0;
-  padding: 0;
-}
-
-button,
 a {
-  color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
 }
