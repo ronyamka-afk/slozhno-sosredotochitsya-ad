@@ -1,1 +1,1 @@
-ronyamka-afk/slozhno-sosredotochhitsya-ad
+https://github.com/ronyamka-afk/slozhno-sosredotochitsya-ad
